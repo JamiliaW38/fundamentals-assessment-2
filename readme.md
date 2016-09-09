@@ -13,11 +13,11 @@
 
 ## Grading Outline
 
-printAll() :
+printAll(attempted) :
 
-longArray() :
+longArray(attempted) :
 
-countNums() :
+countNums(attempted) :
 
 
 ## Self-Grading Process
@@ -56,8 +56,8 @@ Solutions are submitted via pushing your code to your OWN FORKED repository. We 
 **We have defined an array variable `myArray` for you in the JS file. Do not replace it with the examples below**
 
 ### printAll()
-* [ ] create a function called "printAll" that takes an array as an argument
-* [ ] in this function, create a proper for loop that prints out each element of the array
+* [ X] create a function called "printAll" that takes an array as an argument
+* [ x] in this function, create a proper for loop that prints out each element of the array
 
 Example:
 ```javascript
@@ -75,8 +75,8 @@ myArray
 ```
 
 ### longArray()
-* [ ] create a function called "longArray" that takes an array as an argument.
-* [ ] this function returns `true` if the array has 7 or more elements. Otherwise, it returns `false`.
+* [ x] create a function called "longArray" that takes an array as an argument.
+* [ x] this function returns `true` if the array has 7 or more elements. Otherwise, it returns `false`.
 
 Example:
 ```javascript
@@ -85,11 +85,11 @@ longArray(myArray); //true
 ```
 
 ### countNums()
-* [ ] create a function called "countNums" that takes an array as an argument
-* [ ] in this function, declare a "counter" variable and set it to 0.  
-* [ ] create a proper for loop that checks the `typeof` each element.
-* [ ] if the element is a `number`, incrememt a counter variable.
-* [ ] return the counter
+* [x ] create a function called "countNums" that takes an array as an argument
+* [ x] in this function, declare a "counter" variable and set it to 0.  
+* [x ] create a proper for loop that checks the `typeof` each element.
+* [ x] if the element is a `number`, incrememt a counter variable.
+* [ x] return the counter
 
 Example:
 ```javascript
